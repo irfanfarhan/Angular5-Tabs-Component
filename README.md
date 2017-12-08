@@ -1,8 +1,6 @@
 # Angular 4+ Tabs Component
 
-Developing a Tabs Component with Angular5 App
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+Developing a Tabs Component with Angular5 App. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
 ## Features
 
