@@ -83,7 +83,7 @@ What we want, is to get a reference to all of the `<tab>` children that get proj
 
 We can do exactly this using the @ContentChildren decorator. You have to pass the decorator the type you want to get a reference to. In our example it would look like `@ContentChildren(Tab`). As a result we will get a list of instances in the form of a `QueryList<Tab>`.
 
-`[Minko Gechev[(https://twitter.com/mgechev)] posted an awesome article explaining the [difference between @ContentChildren and @ViewChildren](http://blog.mgechev.com/2016/01/23/angular2-viewchildren-contentchildren-difference-viewproviders/) on his blog`
+`[Minko Gechev](https://twitter.com/mgechev) posted an awesome article explaining the [difference between @ContentChildren and @ViewChildren](http://blog.mgechev.com/2016/01/23/angular2-viewchildren-contentchildren-difference-viewproviders/) on his blog`
 
 A `QueryList<T>` is simply “an unmodifiable list of items that Angular keeps up to date when the state of the application changes”.
 
