@@ -156,9 +156,9 @@ selectTab(tab: Tab){
 }
 ```
 
-## The finally Deno here
+## Demo here
 
-[click Here](https://irfanfarhan.github.io/Angular5-Tabs-Component)
+[click Here for Demo](https://irfanfarhan.github.io/Angular5-Tabs-Component)
 
 ## Development server
 
