@@ -2,6 +2,10 @@
 
 Developing a Tabs Component with Angular5 App. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
+## Demo here
+
+[click Here for Demo](https://irfanfarhan.github.io/Angular5-Tabs-Component)
+
 ## Features
 
 This project framework provides the following features:
@@ -155,10 +159,6 @@ selectTab(tab: Tab){
   tab.active = true;
 }
 ```
-
-## Demo here
-
-[click Here for Demo](https://irfanfarhan.github.io/Angular5-Tabs-Component)
 
 ## Development server
 
