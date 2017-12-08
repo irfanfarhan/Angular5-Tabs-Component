@@ -1,0 +1,37 @@
+.tabs {
+    ul.tab-link {
+        li {
+            margin: 0;
+            a {
+                color: #313131;
+                font-size: 1.5em;
+                line-height: 2;
+                font-weight: 200;
+                text-transform: capitalize;
+                border-radius: 3px;
+                margin: 0;
+                border: 0;
+            }
+            &.active {
+                border-bottom: 4px solid rgba(0, 143, 104, .95);
+                a {
+                    color: rgba(0, 143, 104, 0.95);
+                    font-weight: 500;
+                    border-radius: 3px;
+                    border: none !important;
+                }
+                &:hover {
+                    border-bottom: 4px solid rgba(0, 143, 104, .95);
+                }
+            }
+            &:hover {
+                border-bottom: 4px solid rgba(107, 183, 86, .95);
+                cursor: pointer;
+                a {
+                    background: none;
+                    border: none !important;
+                }
+            }
+        }
+    }
+}

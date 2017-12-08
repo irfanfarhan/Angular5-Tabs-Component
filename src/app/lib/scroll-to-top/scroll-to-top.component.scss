@@ -1,0 +1,18 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    transition: all .1s linear;
+    &:hover {
+        color: rgba(107, 183, 86, .95) !important;
+        transform: translateY(3px);
+    }
+}
+
+.show-scroll {
+    display: block;
+    transition: all .2s ease-in-out;
+}
