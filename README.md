@@ -9,7 +9,8 @@ This project framework provides the following features:
 * Angular4/Angular5
 * Node.js
 * Express
-* Building, Debugging, Deploying
+* HTML5/CSS3
+* SCSS
 
 ## Getting Started
 
