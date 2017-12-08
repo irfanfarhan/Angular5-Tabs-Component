@@ -2,6 +2,20 @@
 
 Developing a Tabs Component with Angular5 App. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
+<!-- Badges section here. -->
+[![Build Status](https://img.shields.io/travis/angular/angular-cli/master.svg?label=travis)][travis-badge-url]
+[![CircleCI branch](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser/master.svg?label=circleci)](https://circleci.com/gh/angular/angular-cli)
+[![Dependency Status][david-badge]][david-badge-url]
+[![devDependency Status][david-dev-badge]][david-dev-badge-url]
+
+[![npm](https://img.shields.io/npm/v/%40angular/cli.svg)][npm-badge-url]
+[![npm](https://img.shields.io/npm/v/%40angular/cli/next.svg)][npm-badge-url]
+[![npm](https://img.shields.io/npm/l/@angular/cli.svg)][npm-badge-url]
+[![npm](https://img.shields.io/npm/dm/@angular/cli.svg)][npm-badge-url]
+
+[![GitHub forks](https://img.shields.io/github/forks/irfanfarhan/Angular5-Tabs-Component.svg?style=social&label=Fork)](https://github.com/angular/angular-cli/fork)
+[![GitHub stars](https://img.shields.io/github/stars/irfanfarhan/Angular5-Tabs-Component.svg?style=social&label=Star)](https://github.com/angular/angular-cli)
+
 ## Demo here
 
 [click Here for Demo](https://irfanfarhan.github.io/Angular5-Tabs-Component)
@@ -183,3 +197,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[travis-badge]: https://travis-ci.org/irfanfarhan/Angular5-Tabs-Component.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/irfanfarhan/Angular5-Tabs-Component
+[david-badge]: https://david-dm.org/angular/angular-cli.svg
+[david-badge-url]: https://david-dm.org/angular/angular-cli
+[david-dev-badge]: https://david-dm.org/angular/angular-cli/dev-status.svg
+[david-dev-badge-url]: https://david-dm.org/angular/angular-cli?type=dev
+[npm-badge]: https://img.shields.io/npm/v/@angular/cli.svg
+[npm-badge-url]: https://www.npmjs.com/package/@angular/cli
