@@ -4,12 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import {
-  ToasterModule,
-  ToasterService
-} from 'angular2-toaster/angular2-toaster';
-import { TooltipModule } from 'ngx-tooltip';
-import { NgxChartsModule } from '@swimlane/ngx-charts/release';
 import { LoadingService } from './services/loading.service';
 import { LoginRedirectComponent } from './components/login-redirect/login-redirect.component';
 import { LoaderComponent } from './components/loader/loader.component';
@@ -21,10 +15,7 @@ import { LoaderComponent } from './components/loader/loader.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RouterModule,
-    ToasterModule,
-    TooltipModule,
-    NgxChartsModule
+    RouterModule
   ],
   declarations: [LoginRedirectComponent, LoaderComponent],
   exports: [
@@ -34,12 +25,9 @@ import { LoaderComponent } from './components/loader/loader.component';
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule,
-    ToasterModule,
-    TooltipModule,
     LoginRedirectComponent,
-    NgxChartsModule,
     LoaderComponent
   ],
-  providers: [ToasterService, LoadingService]
+  providers: [ LoadingService]
 })
 export class SharedModule {}

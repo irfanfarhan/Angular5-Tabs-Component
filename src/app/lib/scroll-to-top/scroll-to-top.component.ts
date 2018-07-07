@@ -1,5 +1,4 @@
-import { Component, OnInit, Inject, HostListener } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-scroll-to-top',
@@ -9,7 +8,6 @@ import { DOCUMENT } from '@angular/platform-browser';
 export class ScrollToTopComponent implements OnInit {
   navIsFixed: boolean;
   constructor(
-    @Inject(DOCUMENT) private document: any
   ) {}
 
   ngOnInit() { }

@@ -1,13 +1,6 @@
-import { Component, OnInit, Inject } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { DOCUMENT } from '@angular/platform-browser';
-import { URLSearchParams } from '@angular/http';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { LoadingService } from './shared/services/loading.service';
-import {
-  ToasterContainerComponent,
-  ToasterService,
-  ToasterConfig
-} from 'angular2-toaster';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +9,6 @@ import {
 })
 export class AppComponent implements OnInit {
   constructor(
-    @Inject(DOCUMENT) private document: any,
     private router: Router,
     private loadingService: LoadingService
   ) {}

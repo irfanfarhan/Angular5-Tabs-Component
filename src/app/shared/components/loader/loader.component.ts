@@ -16,7 +16,6 @@ export class LoaderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = this._loadingService.loading
-      .debounceTime(2000)
       .distinctUntilChanged()
       .subscribe((data: boolean) => {
         this.isShow = data;
